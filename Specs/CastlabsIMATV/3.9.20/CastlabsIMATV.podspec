@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Bartek Makowski" => "bartek.makowski@castlabs.com" }
   s.source           = { :s3 => "https://apple-sdk-deps-tests.s3.amazonaws.com/files/3.9.20/CastlabsIMATV.xcframework.zip" }
 
-  s.platform         = :ios, '11.0'
+  s.platform         = :tvos, '11.0'
   s.requires_arc     = true
 
   s.vendored_frameworks = 'CastlabsIMATV.xcframework'
