@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "CastlabsSubtitles"
-  s.version          = "3.9.25"
+  s.version          = "3.11.0"
   s.summary          = "Add multiple subtitles to your video"
   s.homepage         = "https://castlabs.com/"
   s.license          = "proprietary"
   s.author           = { "Bartek Makowski" => "bartek.makowski@castlabs.com" }
-  s.source           = { :http => "https://pods.dev.castlabs.com/cocoapods-auth-s3?public=true&resource=3.9.25/CastlabsSubtitles.xcframework.zip", :type => "zip" }
+  s.source           = { :http => "https://pods.dev.castlabs.com/cocoapods-auth-s3?public=true&resource=3.11.0/CastlabsSubtitles.xcframework.zip", :type => "zip" }
 
   s.platform         = :ios, '11.0'
   s.requires_arc     = true

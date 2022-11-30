@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "CastlabsYouboraTV"
-  s.version          = "3.9.25"
+  s.version          = "3.11.0"
   s.summary          = "Support for Youbora analytics plugin for tvOS"
   s.homepage         = "https://castlabs.com/"
   s.license          = "proprietary"
   s.author           = { "Bartek Makowski" => "bartek.makowski@castlabs.com" }
-  s.source           = { :http => "https://pods.dev.castlabs.com/cocoapods-auth-s3?public=true&resource=3.9.25/CastlabsYouboraTV.xcframework.zip", :type => "zip" }
+  s.source           = { :http => "https://pods.dev.castlabs.com/cocoapods-auth-s3?public=true&resource=3.11.0/CastlabsYouboraTV.xcframework.zip", :type => "zip" }
 
   s.platform         = :tvos, '11.0'
   s.requires_arc     = true
