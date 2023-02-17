@@ -7,8 +7,9 @@ Pod::Spec.new do |s|
   s.author           = { "Bartek Makowski" => "bartek.makowski@castlabs.com" }
   s.source           = { :http => "https://pods.dev.castlabs.com/cocoapods-auth-s3?public=true&resource=4.0.0-beta1/CastlabsThumbnails.xcframework.zip" }
 
-  s.platform         = :ios, '12.0'
-  s.requires_arc     = true
+  s.ios.deployment_target   = '12.0'
+  s.tvos.deployment_target  = '12.0'
+  s.requires_arc            = true
 
   s.vendored_frameworks = 'CastlabsThumbnails.xcframework'
   s.preserve_paths      = 'CastlabsThumbnails.xcframework'
