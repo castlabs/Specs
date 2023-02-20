@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'CastlabsChromecast.xcframework'
   s.preserve_paths      = 'CastlabsChromecast.xcframework'
+
+  s.dependency 'google-cast-sdk-dynamic-beta' , '4.7.1'
 end
