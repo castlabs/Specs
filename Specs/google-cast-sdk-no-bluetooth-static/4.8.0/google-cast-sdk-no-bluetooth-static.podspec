@@ -8,8 +8,4 @@ Pod::Spec.new do |s|
   s.source           = { :http => "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-no-bluetooth-4.8.0_static_xcframework.zip", :type => "zip" }
 
   s.platform         = :ios, '13.0'
-  s.requires_arc     = true
-
-  s.vendored_frameworks = 'GoogleCast.xcframework'
-  s.preserve_paths      = 'GoogleCast.xcframework'
 end
