@@ -32,11 +32,6 @@
     "SystemConfiguration",
     "UIKit"
   ],
-  "dependencies": {
-    "Protobuf": [
-      "~> 3.13"
-    ]
-  },
   "libraries": "c++",
   "static_framework": false,
   "requires_arc": true,
