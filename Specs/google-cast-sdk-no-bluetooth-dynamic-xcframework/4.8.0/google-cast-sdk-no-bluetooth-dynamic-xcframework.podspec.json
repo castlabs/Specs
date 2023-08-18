@@ -40,11 +40,11 @@
   "libraries": "c++",
   "static_framework": false,
   "requires_arc": true,
-  "vendored_frameworks": "GoogleCast.xcframework",
+  "vendored_frameworks": "GoogleCastSDK-ios-4.8.0_dynamic_xcframework/GoogleCast.xcframework",
   "module_name": "GoogleCast",
   "resources": [
-    "GoogleCast.xcframework/GoogleCastCoreResources.bundle",
-    "GoogleCast.xcframework/GoogleCastUIResources.bundle",
-    "GoogleCast.xcframework/MaterialDialogs.bundle"
+    "GoogleCastSDK-ios-4.8.0_dynamic_xcframework/GoogleCast.xcframework/GoogleCastCoreResources.bundle",
+    "GoogleCastSDK-ios-4.8.0_dynamic_xcframework/GoogleCast.xcframework/GoogleCastUIResources.bundle",
+    "GoogleCastSDK-ios-4.8.0_dynamic_xcframework/GoogleCast.xcframework/MaterialDialogs.bundle"
   ]
 }
