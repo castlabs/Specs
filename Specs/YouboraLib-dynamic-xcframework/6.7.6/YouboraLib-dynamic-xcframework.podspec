@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
     s.homepage         = 'https://documentation.npaw.com/'
   
-    s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
+    s.license          = { :type => 'MIT', :file => 'https://github.com/NPAW/lib-plugin-ios/blob/master/LICENSE.md' }
 
     s.author           = { 'Nice People at Work' => 'support@nicepeopleatwork.com' }
 
