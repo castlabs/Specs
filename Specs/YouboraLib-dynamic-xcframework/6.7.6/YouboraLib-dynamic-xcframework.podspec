@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "YouboraLib-dynamic-xcframework"
-    s.version          = "6.7.6"
+    s.version          = ""
 
     s.summary          = 'Library required by Youbora plugins'
 
@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   
     s.homepage         = 'https://documentation.npaw.com/'
   
-    s.license          = { :type => 'MIT', :file => 'https://github.com/NPAW/lib-plugin-ios/blob/master/LICENSE.md' }
+    s.license          = 'MIT'
 
     s.author           = { 'Nice People at Work' => 'support@nicepeopleatwork.com' }
 
-    s.source           = { :http => "https://players.castlabs.com/apple/dependencies/YouboraLib/6.7.6/YouboraLib.xcframework.zip", :type => "zip" }
+    s.source           = { :http => "https://players.castlabs.com/apple/dependencies/YouboraLib//YouboraLib.xcframework.zip", :type => "zip" }
   
     # Platforms
     s.ios.deployment_target   = '9.0'
