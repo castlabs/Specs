@@ -1,0 +1,3 @@
+[submodule "libs/smartlib-package"]
+	path = libs/smartlib-package
+	url = https://delivery-platform.broadpeak.tv/ios/broadpeak/smartlib-package.git
