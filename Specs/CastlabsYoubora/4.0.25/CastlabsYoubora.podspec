@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CastlabsYoubora.xcframework'
   s.preserve_paths      = 'CastlabsYoubora.xcframework'
 
-  s.dependency 'NpawPluginPkg' , '7.2.37'
+  s.dependency 'NpawPluginPkg' , '7.3.18'
 end
